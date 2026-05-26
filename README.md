@@ -13,6 +13,7 @@ This planner generates meals from a pre-defined set of meals whose total weekly 
 
 ## Example Output
 
+```text
 This is the first plan! (This plan took 1 attempts)
 Here is your weekly dinner plan for a $200 budget!
 Monday ($29): steak, green_beans, cookies
@@ -23,11 +24,12 @@ Friday ($21): burgers, green_beans, chocolate
 Saturday ($19): spaghetti, garlic_bread, cookies
 Sunday ($18): grilled_chicken, roasted_potatoes, ice_cream
 Total cost: $167
+```
 
 ## How to Run
 
 ```bash
-git clone https://github.com/yourusername/Ruby-Meal-Planner.git
+git clone https://github.com/maccon6/Ruby-Meal-Planner.git
 cd Ruby-Meal-Planner
 ruby meal_planner.rb
 ```
